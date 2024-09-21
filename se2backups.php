@@ -3,7 +3,8 @@
  * Plugin Name: SE2 Backups
  * Description: Plugin para importar y exportar bases de datos, y comprimir la instalación de WordPress en un archivo ZIP.
  * Version: 1.0.2
- * Author: Tu Nombre
+ * Author: se2code
+ * URI: https://www.se2code.com
  */
 
 if (!defined('ABSPATH')) {
