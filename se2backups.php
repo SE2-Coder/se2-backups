@@ -4,7 +4,7 @@
  * Description: Plugin para importar y exportar bases de datos, y comprimir la instalación de WordPress en un archivo ZIP.
  * Version: 1.0.2
  * Author: se2code
- * URI: https://www.se2code.com
+ * Author URI: https://www.se2code.com
  */
 
 if (!defined('ABSPATH')) {
