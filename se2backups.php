@@ -103,7 +103,7 @@ function se2backups_add_admin_menu() {
         'manage_options', 
         'se2backups', 
         'se2backups_admin_page', 
-        'dashicons-backup', 
+        plugin_dir_url(__FILE__) . 'assets/logo-icon.png', 
         6
     );
 }
@@ -129,6 +129,11 @@ function se2backups_admin_page() {
     ?>
     <div class="wrap">
         <h1>SE2 Backups</h1>
+
+        <!-- Mostrar el logo -->
+        <div style="text-align: left; margin-bottom: 20px;">
+            <img src="<?php echo plugin_dir_url(__FILE__) . 'assets/logo.png'; ?>" alt="SE2 Logo" style="max-width: 200px;">
+        </div>
 
         <h2>Opciones de la Base de Datos</h2>
         <form method="POST">
